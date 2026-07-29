@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto — Mucho Gusto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500;1,600&family=Anton&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo-wordmark">mucho gusto</a>
+    <ul class="nav-links">
+      <li><a href="index.html"><span data-es>Inicio</span><span data-en>Home</span></a></li>
+      <li><a href="about.html"><span data-es>Nosotros</span><span data-en>About</span></a></li>
+      <li><a href="stories.html"><span data-es>Historias</span><span data-en>Stories</span></a></li>
+      <li><a href="contact.html"><span data-es>Contacto</span><span data-en>Contact</span></a></li>
+      <li class="lang-toggle">
+        <button data-lang="es">ES</button>
+        <button data-lang="en">EN</button>
+      </li>
+    </ul>
+    <button class="nav-toggle-btn" aria-label="Menu">&#9776;</button>
+  </div>
+</nav>
+
+<header class="hero" style="min-height:48vh;">
+  <div class="hero-media" style="background-image:url('https://images.unsplash.com/photo-1519996529931-28324d5a630e?q=80&w=1600&auto=format&fit=crop');"></div>
+  <div class="hero-content">
+    <span class="eyebrow"><span data-es>Hablemos</span><span data-en>Let's talk</span></span>
+    <h1 class="hero-headline" style="font-size:clamp(2.2rem,6vw,4.4rem);"><span data-es>Cuéntanos tu historia</span><span data-en>Tell us your story</span></h1>
+  </div>
+</header>
+
+<section class="section-cream">
+  <div class="wrap contact-grid">
+
+    <div>
+      <span class="section-eyebrow"><span data-es>Formulario</span><span data-en>Form</span></span>
+      <h2 class="section-title" style="font-size:clamp(1.6rem,3.2vw,2.2rem);margin-bottom:32px;"><span data-es>Escríbenos</span><span data-en>Get in touch</span></h2>
+
+      <form id="contact-form">
+        <div class="field">
+          <label for="name"><span data-es>Nombre</span><span data-en>Name</span></label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email"><span data-es>Correo electrónico</span><span data-en>Email</span></label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="reason"><span data-es>Motivo</span><span data-en>Reason</span></label>
+          <select id="reason" name="reason">
+            <option><span data-es>Tengo una historia que contar</span><span data-en>I have a story to tell</span></option>
+            <option><span data-es>Colaboraciones y marcas</span><span data-en>Collaborations & brands</span></option>
+            <option><span data-es>Prensa</span><span data-en>Press</span></option>
+            <option><span data-es>Otro</span><span data-en>Other</span></option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message"><span data-es>Mensaje</span><span data-en>Message</span></label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark"><span data-es>Enviar</span><span data-en>Send</span></button>
+      </form>
+    </div>
+
+    <div>
+      <div class="contact-info-item">
+        <h4><span data-es>Correo</span><span data-en>Email</span></h4>
+        <a href="mailto:hola@muchogusto.ps">hola@muchogusto.ps</a>
+      </div>
+      <div class="contact-info-item">
+        <h4>Instagram</h4>
+        <a href="https://www.instagram.com/muchogusto.ps/" target="_blank" rel="noopener">@muchogusto.ps</a>
+      </div>
+      <div class="contact-info-item">
+        <h4><span data-es>Con base en</span><span data-en>Based in</span></h4>
+        <p><span data-es>Ciudad de Panamá</span><span data-en>Panama City</span></p>
+      </div>
+      <div class="media-frame" style="margin-top:36px;background-image:url('https://images.unsplash.com/photo-1531973576160-7125cd663d86?q=80&w=800&auto=format&fit=crop');"></div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-tagline"><span data-es>Un espacio para conectar, conocer y crecer. Sin miedo a ser.</span><span data-en>A space to connect, know, and grow. Unafraid to be.</span></p>
+    </div>
+    <div class="footer-col">
+      <h4><span data-es>Explorar</span><span data-en>Explore</span></h4>
+      <a href="index.html"><span data-es>Inicio</span><span data-en>Home</span></a>
+      <a href="about.html"><span data-es>Nosotros</span><span data-en>About</span></a>
+      <a href="stories.html"><span data-es>Historias</span><span data-en>Stories</span></a>
+      <a href="contact.html"><span data-es>Contacto</span><span data-en>Contact</span></a>
+    </div>
+    <div class="footer-col">
+      <h4><span data-es>Síguenos</span><span data-en>Follow</span></h4>
+      <a href="https://www.instagram.com/muchogusto.ps/" target="_blank" rel="noopener">Instagram — @muchogusto.ps</a>
+      <a href="mailto:hola@muchogusto.ps">hola@muchogusto.ps</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Mucho Gusto. <span data-es>Ciudad de Panamá.</span><span data-en>Panama City.</span></span>
+    <span data-es>Hecho con gusto.</span><span data-en>Made with gusto.</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
